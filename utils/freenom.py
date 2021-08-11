@@ -76,8 +76,8 @@ class FreeNom(object):
 
     def login(self) -> bool:
         data = {
-            'username': settings.FM_USERNAME,
-            'password': settings.FM_PASSWORD
+            'username': settings.FN_ID,
+            'password': settings.FN_PW
         }
         headers = {
             **self.headers,

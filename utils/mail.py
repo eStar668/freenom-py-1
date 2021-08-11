@@ -45,7 +45,7 @@ class EmailPoster(object):
             smtp = smtplib.SMTP_SSL(settings.MAIL_HOST, settings.MAIL_PORT)
             # smtp.set_debuglevel(1)
             smtp.ehlo()
-            smtp.login(settings.MAIL_USER, settings.MAIL_PASSWORD)
+            smtp.login(settings.MAIL_USER, settings.MAIL_PW)
             smtp.sendmail(settings.MAIL_ADDRESS, mail_to, msg_root.as_string())
             smtp.quit()
         except Exception as e:
