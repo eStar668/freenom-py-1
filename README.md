@@ -38,8 +38,8 @@ Python 运行环境
 ```
 python3 FNplus.py -u USERNAME -p PASSWORD
 ```
-`USERNAME` Freenom 用户名  
-`PASSWORD` Freenom 密码
+`USERNAME`：Freenom 用户名  
+`PASSWORD`：Freenom 密码
 
 #### 青龙按照其通知环境变量填写
 
@@ -58,3 +58,9 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 核心代码见 `utils/freenom.py`
 
 此项目核心接口参考 [Freenom-PHP](https://github.com/shuai93/freenom) 
+
+**感谢不限于以下开发者**
+
+[@shuai93](https://github.com/shuai93)
+
+[@luolongfei](https://github.com/luolongfei)
