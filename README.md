@@ -26,8 +26,9 @@ Python 运行环境
 | MAIL_PORT | 邮箱服务器端口 |  465 不填默认为这个 |
 | MAIL_TO | 收件人邮箱可与发件人相同 | address@vip.qq.com 或 123456@qq.com |
 
-- 填写总参考  
-> https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369
+- 填写总参考
+
+> [如何设置POP3/SMTP的SSL加密方式？](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369)
 
 
 ### 2. FNplus.py for General
@@ -37,8 +38,8 @@ Python 运行环境
 ```
 python3 FNplus.py -u USERNAME -p PASSWORD
 ```
-`USERNAME`: Freenom 用户名  
-`PASSWORD`: Freenom 密码
+`USERNAME` Freenom 用户名  
+`PASSWORD` Freenom 密码
 
 #### 青龙按照其通知环境变量填写
 
@@ -54,6 +55,6 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 
 ## 写在最后 🔚
 
-核心代码见 ` utils/freenom.py`
+核心代码见 `utils/freenom.py`
 
-此项目核心接口参考 [Freenom-PHP](https://github.com/shuai93/freenom) 。
+此项目核心接口参考 [Freenom-PHP](https://github.com/shuai93/freenom) 
