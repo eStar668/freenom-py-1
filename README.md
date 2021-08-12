@@ -2,14 +2,18 @@
 
 ## 项目描述 🔑
 
-一个 Freenom 自动续期域名的脚本
+Freenom 自动续期域名的脚本
 
 
 ## 项目部署 🥳
 
-青龙等
+Python 运行环境
+- Windows、Linux、青龙、elecV2P 等
 
-### 1. 环境变量配置  🕹
+
+## 环境变量 🕹
+
+### 1. FN_extend.py for 青龙 / FN_extend.js for V2P
 
 | 变量 | 描述 |  示例 |
 | --- | --- |  --- |
@@ -26,9 +30,26 @@
 > https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369
 
 
-### 2. 查看收件箱 📮
+### 2. FN+.py for General
 
-不出意外会收到一封关于域名续期的邮件
+#### VPS 等可直接运行，无通知变量
+
+```
+python3 FN+.py -u USERNAME -p PASSWORD
+```
+`USERNAME`: Freenom 用户名
+`PASSWORD`: Freenom 密码
+
+#### 青龙按照其通知环境变量填写
+
+> [notify.py](https://raw.githubusercontent.com/whyour/qinglong/master/sample/notify.py)
+
+> [config.sample.sh](https://raw.githubusercontent.com/whyour/qinglong/master/sample/config.sample.sh)
+
+
+## 查看通知 📮
+
+不出意外会收到一封关于域名续期的邮件或者 tg 等通知消息
 
 
 ## 写在最后 🔚
