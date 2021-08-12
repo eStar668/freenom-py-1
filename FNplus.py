@@ -1,3 +1,6 @@
+'''
+Cron: 25 7 */10 * *  main_FNplus.py
+'''
 import os,re,requests,argparse
 
 # 登录地址
