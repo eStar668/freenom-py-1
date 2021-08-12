@@ -31,7 +31,7 @@ Python 运行环境
 > [如何设置POP3/SMTP的SSL加密方式？](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369)
 
 
-### 2. FNplus.py for General
+### 2. FNplus.py for General / FNplus.js for V2P
 
 #### PC、VPS 等可直接运行，无通知变量
 
