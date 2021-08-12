@@ -43,6 +43,11 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 
 #### 青龙按照其通知环境变量填写
 
+| 变量 | 描述 |  示例 |
+| --- | --- |  --- |
+| FN_ID | Freenom 用户名 | 1234567890@gmail.com |
+| FN_PW | Freenom 密码 | 12345678 |
+
 > [notify.py](https://raw.githubusercontent.com/whyour/qinglong/master/sample/notify.py)
 
 > [config.sample.sh](https://raw.githubusercontent.com/whyour/qinglong/master/sample/config.sample.sh)
