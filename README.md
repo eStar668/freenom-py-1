@@ -30,14 +30,14 @@ Python 运行环境
 > https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369
 
 
-### 2. FN+.py for General
+### 2. FNplus.py for General
 
 #### VPS 等可直接运行，无通知变量
 
 ```
-python3 FN+.py -u USERNAME -p PASSWORD
+python3 FNplus.py -u USERNAME -p PASSWORD
 ```
-`USERNAME`: Freenom 用户名
+`USERNAME`: Freenom 用户名  
 `PASSWORD`: Freenom 密码
 
 #### 青龙按照其通知环境变量填写
