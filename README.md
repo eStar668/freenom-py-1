@@ -33,7 +33,7 @@ Python 运行环境
 
 ### 2. FNplus.py for General
 
-#### VPS 等可直接运行，无通知变量
+#### PC、VPS 等可直接运行，无通知变量
 
 ```
 python3 FNplus.py -u USERNAME -p PASSWORD
@@ -41,16 +41,25 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 `USERNAME`：Freenom 用户名  
 `PASSWORD`：Freenom 密码
 
-#### 青龙按照其通知环境变量填写
+#### 青龙、elecV2P 通用环境变量
 
-| 变量 | 描述 |  示例 |
+| 变量 | 描述 | 参考 |
 | --- | --- |  --- |
 | FN_ID | Freenom 用户名 | 1234567890@gmail.com |
 | FN_PW | Freenom 密码 | 12345678 |
+| BARK | bark 服务 | 此参数如果以 http 或者 https 开头则判定为自建 bark 服务 |
+| SCKEY | Server 酱 | |
+| TG_BOT_TOKEN | tg 机器人 | |
+| TG_USER_ID | tg 机器人 | |
+| TG_PROXY_IP | tg 机器人 |
+| TG_PROXY_PORT | tg 机器人 |
+| DD_BOT_ACCESS_TOKEN | 钉钉机器人 | |
+| DD_BOT_SECRET | 钉钉机器人 | |
+| QYWX_APP | 企业微信应用 | 参考 http://note.youdao.com/s/HMiudGkb |
+
+- 调用模块
 
 > [notify.py](https://raw.githubusercontent.com/whyour/qinglong/master/sample/notify.py)
-
-> [config.sample.sh](https://raw.githubusercontent.com/whyour/qinglong/master/sample/config.sample.sh)
 
 
 ## 查看通知 📮
