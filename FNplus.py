@@ -1,5 +1,6 @@
 '''
-Cron: 25 7 */10 * *  main_FNplus.py
+cron: 25 7 */10 * *
+new Env('EUserv 续期消息版');
 '''
 import os,re,requests,argparse
 
