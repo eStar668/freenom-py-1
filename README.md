@@ -15,7 +15,7 @@ Python 运行环境
 
 <h3><p align="center">🪄 通用版</p></h3>
 
-- PC、VPS 等可直接运行，无通知变量
+PC、VPS 等可直接运行，无通知变量
 
 ``` sh
 wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
@@ -40,7 +40,7 @@ RepoFileExtensions="js py ts html"
 2. 添加定时拉取任务并运行
 
 ```
-ql repo https://github.com/Oreomeow/freenom-py.git "FN_extend" "" "utils|templates"
+ql repo https://github.com/Oreomeow/freenom-py.git "FN_extend.py" "" "utils|templates"
 ```
 
 3. 安装依赖
@@ -57,19 +57,23 @@ pip3 install -r requirements.txt
 4. 添加环境变量
 
 - 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
-- 参考[下方表格](https://github.com/Oreomeow/freenom-py/blob/main/README.md#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F-)
+- 参考[下方表格](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
 
 5. 运行一次 `FN_extend.py` 测试
 
 <h3><p align="center">🪁 elecV2P 邮件版 📧</p></h3>
 
-- TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
+TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
 
-  名称：Freenom 续期
+名称：Freenom 续期
 
-  时间：cron定时 `25 7 */10 * *`
+时间：cron定时 `25 7 */10 * *`
 
-  任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js`
+任务：
+
+```
+https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js
+```
 
 
 <h3><p align="center">🐉 青龙消息版 📱</p></h3>
@@ -86,13 +90,17 @@ ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 
 <h3><p align="center">🪁 elecV2P 消息版 📱</p></h3>
 
-- TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
+TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
 
-  名称：Freenom 续期
+名称：Freenom 续期
 
-  时间：cron定时 `25 7 */10 * *`
+时间：cron定时 `25 7 */10 * *`
 
-  任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js`
+任务：
+
+```
+https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
+```
 
 
 ## 环境变量 🍒
