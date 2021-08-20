@@ -13,7 +13,10 @@ Python 运行环境
 
 ## 环境变量 🕹
 
-### 1. FN_extend.py for 青龙 / FN_extend.js for V2P
+### 1. 邮件版
+
+- FN_extend.py for 青龙
+- FN_extend.js for V2P
 
 | 变量 | 描述 |  示例 |
 | --- | --- |  --- |
@@ -31,7 +34,10 @@ Python 运行环境
 > [如何设置POP3/SMTP的SSL加密方式？](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369)
 
 
-### 2. FNplus.py for General / FNplus.js for V2P
+### 2. 消息版
+
+- FNplus.py for General
+- FNplus.js for V2P
 
 #### PC、VPS 等可直接运行，无通知变量
 
@@ -45,8 +51,8 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 
 | 变量 | 描述 | 参考 |
 | --- | --- |  --- |
-| FN_ID | Freenom 用户名 | 1234567890@gmail.com |
-| FN_PW | Freenom 密码 | 12345678 |
+| FN_ID | Freenom 用户名，多账号空格隔开| 1234567890@gmail.com  9876543210@enayu.com|
+| FN_PW | Freenom 密码，多账号空格隔开| 12345678 87654321|
 | BARK | bark 服务 | 此参数如果以 http 或者 https 开头则判定为自建 bark 服务 |
 | SCKEY | Server 酱 | |
 | TG_BOT_TOKEN | tg 机器人 | |
