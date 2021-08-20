@@ -30,10 +30,10 @@ ql repo https://github.com/Oreomeow/freenom-py.git "FN_extend" "" "utils|templat
 
 3. 安装依赖
 
-```
+``` sh
 docker exec -it qinglong bash # 进入容器内
 ```
-```
+``` sh
 cd /ql/scripts
 wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/requirements.txt -O requirements.txt
 pip3 install -r requirements.txt
@@ -42,7 +42,7 @@ pip3 install -r requirements.txt
 4. 添加环境变量
 
 - 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
-- 参考下方表格
+- 参考[下方表格](https://github.com/Oreomeow/freenom-py/blob/main/README.md#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F-)
 
 5. 运行一次测试
 
@@ -78,10 +78,10 @@ pip3 install -r requirements.txt
 
 PC、VPS 等可直接运行，无通知变量
 
-```
+``` sh
 wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 ```
-```
+``` sh
 python3 FNplus.py -u USERNAME -p PASSWORD
 ```
 
