@@ -11,12 +11,52 @@ Python 运行环境
 - Windows、Linux、青龙、elecV2P 等
 
 
-## 环境变量 🕹
+## 使用说明 🕹
 
-### 1. 邮件版
+### 青龙邮件版 📧
 
-- FN_extend.py for 青龙
-- FN_extend.js for V2P
+1. 修改配置文件
+
+``` sh
+## ql repo命令拉取脚本时需要拉取的文件后缀，直接写文件后缀名即可
+RepoFileExtensions="js py ts html"
+```
+
+2. 添加定时拉取任务并运行
+
+```
+ql repo https://github.com/Oreomeow/freenom-py.git "FN_extend" "" "utils|templates"
+```
+
+3. 安装依赖
+
+```
+docker exec -it qinglong bash # 进入容器内
+```
+```
+cd /ql/scripts
+wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/requirements.txt -O requirements.txt
+pip3 install -r requirements.txt
+```
+
+4. 添加环境变量
+
+- 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
+- 参考下方表格
+
+5. 运行一次测试
+
+### V2P 邮件版 📧
+
+- TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
+
+名称：Freenom 续期
+
+时间：cron定时 `25 7 */10 * *`
+
+任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js`
+
+### 环境变量 🍒
 
 | 变量 | 描述 |  示例 |
 | --- | --- |  --- |
@@ -34,20 +74,41 @@ Python 运行环境
 > [如何设置POP3/SMTP的SSL加密方式？](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369)
 
 
-### 2. 消息版
+### 通用版 💎
 
-- FNplus.py for General
-- FNplus.js for V2P
+PC、VPS 等可直接运行，无通知变量
 
-#### PC、VPS 等可直接运行，无通知变量
-
+```
+wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+```
 ```
 python3 FNplus.py -u USERNAME -p PASSWORD
 ```
+
 `USERNAME`：Freenom 用户名  
 `PASSWORD`：Freenom 密码
 
-#### 青龙、elecV2P 通用环境变量
+### 青龙短消息版 📱
+
+1. 面板添加定时任务，定时随意
+
+```
+ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+```
+
+2. 填写环境变量
+
+### V2P 短消息版 📱
+
+- TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
+
+名称：Freenom 续期
+
+时间：cron定时 `25 7 */10 * *`
+
+任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js`
+
+### 环境变量 🍓
 
 | 变量 | 描述 | 参考 |
 | --- | --- |  --- |
