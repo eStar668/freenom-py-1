@@ -59,38 +59,40 @@ pip3 install -r requirements.txt
 - 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
 - 参考[下方表格](https://github.com/Oreomeow/freenom-py/blob/main/README.md#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F-)
 
-5. 运行一次测试
+5. 运行一次 `FN_extend.py` 测试
 
 <h3><p align="center">🪁 elecV2P 邮件版 📧</p></h3>
 
 - TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
 
-名称：Freenom 续期
+  名称：Freenom 续期
 
-时间：cron定时 `25 7 */10 * *`
+  时间：cron定时 `25 7 */10 * *`
 
-任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js`
+  任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js`
 
 
 <h3><p align="center">🐉 青龙消息版 📱</p></h3>
 
-1. 面板添加定时任务，定时随意
+1. 面板添加定时任务，定时随意，运行
 
 ```
 ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 ```
 
-2. 填写环境变量
+2. 填写[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
+
+3. 运行一次 `FNplus.py` 测试
 
 <h3><p align="center">🪁 elecV2P 消息版 📱</p></h3>
 
 - TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
 
-名称：Freenom 续期
+  名称：Freenom 续期
 
-时间：cron定时 `25 7 */10 * *`
+  时间：cron定时 `25 7 */10 * *`
 
-任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js`
+  任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js`
 
 
 ## 环境变量 🍒
@@ -142,7 +144,7 @@ ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 
 核心代码见 `utils/freenom.py`
 
-此项目核心接口参考 [Freenom-PHP](https://github.com/shuai93/freenom) 
+此项目核心接口参考 [Freenom-PHP](https://github.com/luolongfei/freenom) 
 
 **感谢不限于以下开发者**
 
