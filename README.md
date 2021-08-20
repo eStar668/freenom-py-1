@@ -13,7 +13,24 @@ Python 运行环境
 
 ## 使用说明 🕹
 
-### 青龙邮件版 📧
+### 🪄 通用版
+
+- PC、VPS 等可直接运行，无通知变量
+
+``` sh
+wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+```
+``` sh
+python3 FNplus.py -u USERNAME -p PASSWORD
+```
+
+`USERNAME`：Freenom 用户名  
+`PASSWORD`：Freenom 密码
+
+
+### 📧 邮件版
+
+#### ---------- 青龙 ----------
 
 1. 修改配置文件
 
@@ -46,7 +63,7 @@ pip3 install -r requirements.txt
 
 5. 运行一次测试
 
-### V2P 邮件版 📧
+#### ---------- V2P ----------
 
 - TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
 
@@ -56,7 +73,33 @@ pip3 install -r requirements.txt
 
 任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js`
 
-### 环境变量 🍒
+
+### 📱 消息版
+
+#### ---------- 青龙 ----------
+
+1. 面板添加定时任务，定时随意
+
+```
+ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+```
+
+2. 填写环境变量
+
+#### ---------- V2P ----------
+
+- TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
+
+名称：Freenom 续期
+
+时间：cron定时 `25 7 */10 * *`
+
+任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js`
+
+
+## 环境变量 🍒
+
+### 邮件版 📧
 
 | 变量 | 描述 |  示例 |
 | --- | --- |  --- |
@@ -73,42 +116,7 @@ pip3 install -r requirements.txt
 
 > [如何设置POP3/SMTP的SSL加密方式？](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369)
 
-
-### 通用版 💎
-
-PC、VPS 等可直接运行，无通知变量
-
-``` sh
-wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
-```
-``` sh
-python3 FNplus.py -u USERNAME -p PASSWORD
-```
-
-`USERNAME`：Freenom 用户名  
-`PASSWORD`：Freenom 密码
-
-### 青龙短消息版 📱
-
-1. 面板添加定时任务，定时随意
-
-```
-ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
-```
-
-2. 填写环境变量
-
-### V2P 短消息版 📱
-
-- TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
-
-名称：Freenom 续期
-
-时间：cron定时 `25 7 */10 * *`
-
-任务：`https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js`
-
-### 环境变量 🍓
+### 消息版 📱
 
 | 变量 | 描述 | 参考 |
 | --- | --- |  --- |
