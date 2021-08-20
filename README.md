@@ -30,7 +30,7 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 
 ### 📧 邮件版
 
-#### ---------- 青龙 ----------
+<h3><p align="center">🐉 青龙</p></h3>
 
 1. 修改配置文件
 
@@ -63,7 +63,7 @@ pip3 install -r requirements.txt
 
 5. 运行一次测试
 
-#### ---------- V2P ----------
+<h3><p align="center">🪁 elecV2P</p></h3>
 
 - TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
 
@@ -76,7 +76,7 @@ pip3 install -r requirements.txt
 
 ### 📱 消息版
 
-#### ---------- 青龙 ----------
+<h3><p align="center">🐉 青龙</p></h3>
 
 1. 面板添加定时任务，定时随意
 
@@ -86,7 +86,7 @@ ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 
 2. 填写环境变量
 
-#### ---------- V2P ----------
+<h3><p align="center">🪁 elecV2P</p></h3>
 
 - TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写环境变量
 
