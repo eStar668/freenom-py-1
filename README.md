@@ -13,7 +13,7 @@ Python 运行环境
 
 ## 使用说明 🕹
 
-<h3><p align="center">🪄 通用版</p></h3>
+<h3><p align="center">🌏 通用版</p></h3>
 
 PC、VPS 等可直接运行，无通知变量
 
