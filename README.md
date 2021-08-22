@@ -1,4 +1,11 @@
-# freenom-py
+<div align="center"> 
+<h1 align="center">freenom-py</h1>
+</div>
+
+![GitHub stars](https://img.shields.io/github/stars/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
+![GitHub forks](https://img.shields.io/github/forks/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
+![GitHub issues](https://img.shields.io/github/issues/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
+![GitHub issues](https://img.shields.io/github/languages/code-size/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
 
 ## 项目描述 🔑
 
@@ -13,7 +20,7 @@ Python 运行环境
 
 ## 使用说明 🕹
 
-<h3><p align="center">🌏 通用版</p></h3>
+<h3 align="center">🌏 通用版</h3>
 
 PC、VPS 等可直接运行，无通知变量
 
@@ -28,7 +35,7 @@ python3 FNplus.py -u USERNAME -p PASSWORD
 `PASSWORD`：Freenom 密码
 
 
-<h3><p align="center">🐉 青龙邮件版 📧</p></h3>
+<h3 align="center">🐉 青龙邮件版 📧</h3>
 
 1. 修改配置文件
 
@@ -61,7 +68,7 @@ pip3 install -r requirements.txt
 
 5. 运行一次 `FN_extend.py` 测试
 
-<h3><p align="center">🪁 elecV2P 邮件版 📧</p></h3>
+<h3 align="center">🪁 elecV2P 邮件版 📧</h3>
 
 TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
 
@@ -76,7 +83,7 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js
 ```
 
 
-<h3><p align="center">🐉 青龙消息版 📱</p></h3>
+<h3 align="center">🐉 青龙消息版 📱</h3>
 
 1. 面板添加定时任务，定时随意，运行
 
@@ -88,7 +95,7 @@ ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 
 3. 运行一次 `FNplus.py` 测试
 
-<h3><p align="center">🪁 elecV2P 消息版 📱</p></h3>
+<h3 align="center">🪁 elecV2P 消息版 📱</h3>
 
 TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
 
