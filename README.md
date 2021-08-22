@@ -145,6 +145,8 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 | DD_BOT_SECRET | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)密钥，机器人安全设置页面，加签一栏下面显示的 `SEC` 开头的字符串, 注:填写了 `DD_BOT_TOKEN` 和 `DD_BOT_SECRET`，钉钉机器人安全设置只需勾选加签即可，其他选项不要勾选 |
 | QYWX_APP | 企业微信应用 | 参考 http://note.youdao.com/s/HMiudGkb |
 
+*\*表示选填*
+
 - 调用模块
 
 > [notify.py](https://raw.githubusercontent.com/whyour/qinglong/master/sample/notify.py)
