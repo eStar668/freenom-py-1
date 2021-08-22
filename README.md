@@ -1,12 +1,13 @@
 <div align="center"> 
 <h1 align="center">freenom-py</h1>
-</div>
 
 ![GitHub stars](https://img.shields.io/github/stars/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
 ![GitHub forks](https://img.shields.io/github/forks/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
 ![GitHub issues](https://img.shields.io/github/issues/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
 ![GitHub issues](https://img.shields.io/github/languages/code-size/Oreomeow/freenom-py?style=for-the-badge&logo=appveyor)
 
+</div>
+  
 ## 项目描述 🔑
 
 Freenom 自动续期域名的脚本
@@ -61,7 +62,7 @@ wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/requirements.txt
 pip3 install -r requirements.txt
 ```
 
-4. 添加环境变量
+4. 添加环境变量 [示例](https://github.com/Oreomeow/freenom-py/issues/1#issuecomment-903344952)
 
 - 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
 - 参考[下方表格](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
@@ -91,7 +92,7 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js
 ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
 ```
 
-2. 填写[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
+2. 添加[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-) [示例](https://github.com/Oreomeow/freenom-py/issues/1#issuecomment-903344952)
 
 3. 运行一次 `FNplus.py` 测试
 
