@@ -133,16 +133,16 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 
 | 变量 | 描述 | 参考 |
 | --- | --- |  --- |
-| FN_ID | Freenom 用户名，多账号空格隔开| 1234567890@gmail.com  9876543210@enayu.com|
-| FN_PW | Freenom 密码，多账号空格隔开| 12345678 87654321|
+| FN_ID | Freenom 用户名，多账号空格隔开| 1234567890@gmail.com  9876543210@enayu.com |
+| FN_PW | Freenom 密码，多账号空格隔开| 12345678 87654321 |
 | BARK | bark 服务 | 此参数如果以 http 或者 https 开头则判定为自建 bark 服务 |
-| SCKEY | Server 酱 | |
+| SCKEY | Server 酱 |
 | TG_BOT_TOKEN | tg 机器人 | 1407203283:AAG9rt-6RDaaX0HBLZQq0laNOh898iFYaRQ |
 | TG_USER_ID | tg 机器人 | 1434078534 |
 | TG_PROXY_IP | tg 机器人 |
 | TG_PROXY_PORT | tg 机器人 |
-| DD_BOT_ACCESS_TOKEN | 钉钉机器人 | |
-| DD_BOT_SECRET | 钉钉机器人 | |
+| DD_BOT_ACCESS_TOKEN | 钉钉机器人 |
+| DD_BOT_SECRET | 钉钉机器人 |
 | QYWX_APP | 企业微信应用 | 参考 http://note.youdao.com/s/HMiudGkb |
 
 - 调用模块
