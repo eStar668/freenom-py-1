@@ -135,14 +135,14 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 | --- | --- |  --- |
 | FN_ID | Freenom 用户名，多账号空格隔开| 1234567890@gmail.com  9876543210@enayu.com |
 | FN_PW | Freenom 密码，多账号空格隔开| 12345678 87654321 |
-| BARK | bark 服务 | 此参数如果以 http 或者 https 开头则判定为自建 bark 服务 |
-| SCKEY | Server 酱 |
-| TG_BOT_TOKEN | tg 机器人 | 1407203283:AAG9rt-6RDaaX0HBLZQq0laNOh898iFYaRQ |
-| TG_USER_ID | tg 机器人 | 1434078534 |
-| TG_PROXY_IP | tg 机器人 |
-| TG_PROXY_PORT | tg 机器人 |
-| DD_BOT_ACCESS_TOKEN | 钉钉机器人 |
-| DD_BOT_SECRET | 钉钉机器人 |
+| BARK | bark 服务 | BARK 推送[使用](https://github.com/Sitoi/dailycheckin/issues/29)，填写 `BARK_URL` 即可，例如：`https://api.day.app/DxHcxxxxxRxxxxxxcm/`，此参数如果以 `http` 或者 `https` 开头则判定为自建 bark 服务 |
+| SCKEY | Server 酱 | server 酱推送[官方文档](https://sc.ftqq.com/3.version)，填写 `SCKEY` 代码即可
+| TG_BOT_TOKEN | tg 机器人 | 申请 @BotFather 的 Token，如 `10xxx4:AAFcqxxxxgER5uw` |
+| TG_USER_ID | tg 机器人 | @getuseridbot 中获取到的纯数字 ID，如 `1434078534` |
+| TG_PROXY_IP | * tg 机器人代理 IP 地址 | 代理类型为 http，比如您代理是 `http://127.0.0.1:1080`，则填写 `127.0.0.1`，有密码例子: `username:password@127.0.0.1` |
+| TG_PROXY_PORT | * tg 机器人代理端口 | 代理端口号，代理类型为 http，比如您代理是 `http://127.0.0.1:1080`，则填写 `1080` |
+| DD_BOT_ACCESS_TOKEN | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)，只需 `https://oapi.dingtalk.com/robot/send?access_token=XXX` 等于符号后面的 `XXX` |
+| DD_BOT_SECRET | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)密钥，机器人安全设置页面，加签一栏下面显示的 `SEC` 开头的字符串, 注:填写了 `DD_BOT_TOKEN` 和 `DD_BOT_SECRET`，钉钉机器人安全设置只需勾选加签即可，其他选项不要勾选 |
 | QYWX_APP | 企业微信应用 | 参考 http://note.youdao.com/s/HMiudGkb |
 
 - 调用模块
