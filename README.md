@@ -1,5 +1,5 @@
 <div align="center"> 
-<h1 align="center">freenom-py</h1>
+<h1 align="center">𝘧𝘳𝘦𝘦𝘯𝘰𝘮-𝘱𝘺</h1>
 
 ![GitHub stars](https://img.shields.io/github/stars/Oreomeow/freenom-py?color=9cf&logo=Riseup&logoColor=9cf&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Oreomeow/freenom-py?color=9cf&style=for-the-badge)
@@ -167,6 +167,6 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 
 **感谢不限于以下开发者**
 
-[@shuai93](https://github.com/shuai93)
+[@𝘴𝘩𝘶𝘢𝘪93](https://github.com/shuai93)
 
-[@luolongfei](https://github.com/luolongfei)
+[@𝘭𝘶𝘰𝘭𝘰𝘯𝘨𝘧𝘦𝘪](https://github.com/luolongfei)
