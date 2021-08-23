@@ -133,7 +133,7 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 
 ### 消息版 📱
 
-| 变量/key | 描述 | 参考/value |
+| 变量 / key | 描述 | 参考 / value |
 | --- | --- |  --- |
 | FN_ID | Freenom 用户名，多账号空格隔开| 1234567890@gmail.com  9876543210@enayu.com |
 | FN_PW | Freenom 密码，多账号空格隔开| 12345678 87654321 |
