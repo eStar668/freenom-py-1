@@ -116,7 +116,7 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 
 ### 邮件版 📧
 
-| 变量/key | 描述 |  示例/value |
+| 变量 / key | 描述 |  示例 / value |
 | --- | --- |  --- |
 | FN_ID | Freenom 用户名 | 1234567890@gmail.com |
 | FN_PW | Freenom 密码 | 12345678 | 
