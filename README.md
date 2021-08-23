@@ -3,9 +3,8 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/Oreomeow/freenom-py?color=9cf&logo=Riseup&logoColor=9cf&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Oreomeow/freenom-py?color=9cf&style=for-the-badge)
+<a href="https://t.me/joinchat/h3Y8yTMRhWViOWFl"><img src="https://img.shields.io/badge/talk-Telegram-9cf?logo=Telegram&style=for-the-badge" alt="Telegram"></a>
 <a href="https://github.com/Oreomeow/freenom-py/issues"><img src="https://img.shields.io/github/issues/Oreomeow/freenom-py?color=yellow&style=for-the-badge" alt="GitHub issues"></a>
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Oreomeow/freenom-py?color=informational&logo=Python&logoColor=informational&style=for-the-badge)
-<a href="https://t.me/joinchat/h3Y8yTMRhWViOWFl"><img src="https://img.shields.io/badge/Talk-Telegram-blue?logo=Telegram&style=for-the-badge" alt="Telegram"></a>
 ![GitHub last commit](https://img.shields.io/github/last-commit/Oreomeow/freenom-py?color=orange&logo=GitHub&style=for-the-badge)
 
 </div>
