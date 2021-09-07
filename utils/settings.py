@@ -12,4 +12,3 @@ MAIL_USER = os.getenv("MAIL_USER", "")
 # free nom
 FN_ID = os.getenv("FN_ID", "")
 FN_PW = os.getenv("FN_PW", "")
-

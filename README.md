@@ -3,9 +3,9 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/Oreomeow/freenom-py?color=9cf&logo=Riseup&logoColor=9cf&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Oreomeow/freenom-py?color=9cf&style=for-the-badge)
-<a href="https://t.me/joinchat/h3Y8yTMRhWViOWFl"><img src="https://img.shields.io/badge/talk-Telegram-9cf?logo=Telegram&style=for-the-badge" alt="Telegram"></a>
+<a href="https://t.me/joinchat/muGNhnaZglQ0N2Q1"><img src="https://img.shields.io/badge/talk-Telegram-9cf?logo=Telegram&style=for-the-badge" alt="Telegram"></a>
 <a href="https://github.com/Oreomeow/freenom-py/issues"><img src="https://img.shields.io/github/issues/Oreomeow/freenom-py?color=yellow&style=for-the-badge" alt="GitHub issues"></a>
-![GitHub last commit](https://img.shields.io/github/last-commit/Oreomeow/freenom-py?color=orange&logo=GitHub&style=for-the-badge)
+<a href="https://github.com/Oreomeow/freenom-py/commits?author=Oreomeow"><img src="https://img.shields.io/github/last-commit/Oreomeow/freenom-py?color=orange&logo=GitHub&style=for-the-badge" alt="GitHub last commit"></a>
 
 </div>
   
@@ -143,9 +143,9 @@ https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
 | TG_USER_ID | tg 机器人 | 给 [@getidsbot](https://t.me/getidsbot) 发送 /start 获取到的纯数字 ID，如 `1434078534` |
 | TG_PROXY_IP | * tg 机器人代理 IP 地址 | 代理类型为 http，比如您代理是 `http://127.0.0.1:1080`，则填写 `127.0.0.1`，有密码例子: `username:password@127.0.0.1` |
 | TG_PROXY_PORT | * tg 机器人代理端口 | 代理端口号，代理类型为 http，比如您代理是 `http://127.0.0.1:1080`，则填写 `1080` |
-| DD_BOT_ACCESS_TOKEN | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)，只需 `https://oapi.dingtalk.com/robot/send?access_token=XXX` 等于符号后面的 `XXX` |
+| DD_BOT_TOKEN | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)，只需 `https://oapi.dingtalk.com/robot/send?access_token=XXX` 等于符号后面的 `XXX` |
 | DD_BOT_SECRET | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)密钥，机器人安全设置页面，加签一栏下面显示的 `SEC` 开头的字符串, 注:填写了 `DD_BOT_TOKEN` 和 `DD_BOT_SECRET`，钉钉机器人安全设置只需勾选加签即可，其他选项不要勾选 |
-| QYWX_APP | 企业微信应用 | 参考 http://note.youdao.com/s/HMiudGkb |
+| QYWX_AM | 企业微信应用 | 参考 http://note.youdao.com/s/HMiudGkb |
 
 *\*表示选填*
 
